@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "m3t1": "nodemon 03.event-emitter-buffer-streams/event-emitter.js",
+    "m2": "nodemon 02.standard-library/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

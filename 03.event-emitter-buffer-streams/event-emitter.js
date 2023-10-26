@@ -1,3 +1,8 @@
+/**
+ * This file contains the implementation of `EventEmitter`.
+ * You can run `npm run m3t1` to run this file.
+ */
+
 class EventEmitter {
   listenerStore = {}
 
