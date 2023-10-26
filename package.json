@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": ">= 18.0.0"
+  },
   "scripts": {
+    "m3t3": "nodemon 03.event-emitter-buffer-streams/convert-csv-to-txt.js",
     "m3t2": "nodemon 03.event-emitter-buffer-streams/with-time-example.js",
     "m3t1": "nodemon 03.event-emitter-buffer-streams/event-emitter-example.js",
     "m2": "nodemon 02.standard-library/index.js",
@@ -23,5 +27,8 @@
   "homepage": "https://github.com/yuleicul/node-mentoring-program-2023#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
   }
 }
