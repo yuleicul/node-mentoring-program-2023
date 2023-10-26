@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "m3t2": "nodemon 03.event-emitter-buffer-streams/with-time-examples.js",
-    "m3t1": "nodemon 03.event-emitter-buffer-streams/event-emitter-examples.js",
+    "m3t2": "nodemon 03.event-emitter-buffer-streams/with-time-example.js",
+    "m3t1": "nodemon 03.event-emitter-buffer-streams/event-emitter-example.js",
     "m2": "nodemon 02.standard-library/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

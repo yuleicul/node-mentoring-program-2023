@@ -1,10 +1,9 @@
-import EventEmitter from './event-emitter.js'
-
 /**
  * This file contains examples from
  * https://d17btkcdsmqrmh.cloudfront.net/node-gmp/docs/event-emitter-vs-buffers-vs-streams/Homework#task-1
  * You can run `npm run m3t1` to run this file.
  */
+import EventEmitter from './event-emitter.js'
 
 const myEmitter = new EventEmitter()
 
